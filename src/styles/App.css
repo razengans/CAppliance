@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: no-repeat center url("https://psv4.userapi.com/c240331/u133786441/docs/d54/5ef5cee251c8/grom_Background_for_a_website_with_kitchen_electrical_appl_f480101d-41f8-4a9a-8d63-e7e6a6699623.png?extra=wVSHhHvxWcQTdB6dhgoCegYAeMeifYFMoK6f2ISge4Wj2B04SlFKoFpeakI3zJKSvQdB02meIONjFXsodGSWaTxF7bIlsfljoCOQZmsD0s4hh6brRopw0ssp9ilLp6EgokKU4svXVG8IJgY6slAyXsaG08Q");
+    background-size: 100%;
+}
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.App {
+    width: 800px;
+}
+
+.post {
+    display: flex;
+    padding: 15px;
+    border: 2px rebeccapurple;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post__btns {
+    display: flex;
+}
+
+.post-enter {
+    transform: translateX(-350px);
+}
+.post-enter-active {
+    transform: translateX(0px);
+    transition: all 500ms ease-in;
+}
+.post-exit {
+    opacity: 1;
+}
+.post-exit-active {
+    transform: translateX(-350px);
+    transition: all 500ms ease-in;
+}
+
+.page__wrapper {
+    margin-top: 30px;
+    display: flex;
+}
+
+.page {
+    padding: 10px;
+    border: 1px solid teal;
+    cursor: pointer;
+}
+
+.page__current {
+    border: 2px solid orange;
+    font-weight: bold;
+}
+
+.navbar {
+    height: 75px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    background: whitesmoke;
+}
+.navbar__name{
+    font-size: 20px;
+    padding: 20px;
+    margin-right: auto;
+    background: linear-gradient(deeppink, pink 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Arial Black";
+}
+.navbar__links {
+
+    margin-left: auto;
+}
+
+.about {
+    font-size: 75px;
+    padding: 60px;
+    font-family:"Arial Black";
+    background: linear-gradient(deeppink, pink 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+ .about__text{
+     font-size: 40px;
+     color: rebeccapurple;
+     font-family:"Arial Black";
+ }
+
+ .logo{
+     width: 75px;
+     height: 75px;
+     cursor: pointer;
+     align-items: center;
+ }
+
+ .logo_hub{
+     width: 200px;
+     height: 200px;
+     display: flex;
+
+ }
